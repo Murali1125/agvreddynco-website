@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import { AboutCTA } from "@/components/about/AboutCTA";
 import { AboutHero } from "@/components/about/AboutHero";
 import { CoreValues } from "@/components/about/CoreValues";
 import { Credentials } from "@/components/about/Credentials";
 import { LeadershipSection } from "@/components/about/LeadershipSection";
 import { OfficePresence } from "@/components/about/OfficePresence";
 import { Timeline } from "@/components/about/Timeline";
-import { TrustCounters } from "@/components/about/TrustCounters";
 import { VisionMission } from "@/components/about/VisionMission";
 import { aboutPageData } from "@/data/about";
 import { createPageMetadata } from "@/lib/seo/metadata";

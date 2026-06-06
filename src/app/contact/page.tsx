@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { ContactCTA } from "@/components/contact/ContactCTA";
-import { ContactFAQ } from "@/components/contact/ContactFAQ";
 import { ContactHero } from "@/components/contact/ContactHero";
 import { ContactInfo } from "@/components/contact/ContactInfo";
 import { ContactTrustSection } from "@/components/contact/ContactTrustSection";
@@ -45,8 +43,6 @@ export default function ContactPage() {
         eyebrow={contactPageData.hero.eyebrow}
         headline={contactPageData.hero.headline}
         subheadline={contactPageData.hero.subheadline}
-        ctaLabel={contactPageData.hero.ctaLabel}
-        ctaHref={contactPageData.hero.ctaHref}
       />
       <TrustBanner content={trustBannerData} />
 

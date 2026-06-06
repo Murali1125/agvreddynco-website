@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/shared/BreadcrumbSchema";
-import { CareersCTA } from "@/components/careers/CareersCTA";
 import { CareersHero } from "@/components/careers/CareersHero";
-import { CareerTimeline } from "@/components/careers/CareerTimeline";
 import { EmployeeBenefits } from "@/components/careers/EmployeeBenefits";
 import { JobsGrid } from "@/components/careers/JobsGrid";
 import { WhyJoinUs } from "@/components/careers/WhyJoinUs";

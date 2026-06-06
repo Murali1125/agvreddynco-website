@@ -37,20 +37,23 @@ const securityHeaders = [
 ];
 
 const nextConfig = {
+  // Enable static export for GitHub Pages deployment
+  output: 'export',
+  
+  // Base path for GitHub Pages repository
+  basePath: '/agvreddynco-website',
+  
+  // Trailing slash for static hosting compatibility
+  trailingSlash: true,
+  
   reactStrictMode: true,
   poweredByHeader: false,
+  
+  // Skip headers configuration for static export
+  // (Headers are not applicable to static HTML export)
   async headers() {
-    // Skip strict security headers in development so HMR websocket can connect.
-    if (process.env.NODE_ENV !== "production") {
-      return [];
-    }
-
-    return [
-      {
-        source: "/(.*)",
-        headers: securityHeaders
-      }
-    ];
+    // Headers are not supported in static export mode
+    return [];
   }
 };
 

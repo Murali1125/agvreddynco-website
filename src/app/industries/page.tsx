@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { IndustriesHero } from "@/components/industries/IndustriesHero";
-import { IndustryCTA } from "@/components/industries/IndustryCTA";
 import { IndustryExpertise } from "@/components/industries/IndustryExpertise";
 import { IndustryGrid } from "@/components/industries/IndustryGrid";
 import { IndustryProcess } from "@/components/industries/IndustryProcess";

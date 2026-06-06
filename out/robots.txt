@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /internal/
+Disallow: /temp/
+Disallow: /_next/
+
+Sitemap: https://agvreddy.com/sitemap.xml

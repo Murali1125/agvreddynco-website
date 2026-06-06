@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { getArticlesByCategory, insightCategories } from "@/data/articles";
 import { createPageMetadata } from "@/lib/seo/metadata";
 
+export const dynamic = 'force-static';
 export const revalidate = 3600;
 
 const PAGE_SIZE = 6;

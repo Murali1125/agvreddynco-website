@@ -3,8 +3,6 @@ import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/services/Breadcrumb";
 import { IndustriesServed } from "@/components/services/IndustriesServed";
 import { ServiceBenefits } from "@/components/services/ServiceBenefits";
-import { ServiceCTA } from "@/components/services/ServiceCTA";
-import { ServiceFAQ } from "@/components/services/ServiceFAQ";
 import { ServiceHero } from "@/components/services/ServiceHero";
 import { ServiceOfferings } from "@/components/services/ServiceOfferings";
 import { ServiceOverview } from "@/components/services/ServiceOverview";

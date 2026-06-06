@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/shared/BreadcrumbSchema";
-import { ServiceCTA } from "@/components/services/ServiceCTA";
 import { ServiceHero } from "@/components/services/ServiceHero";
 import { ServicesGrid } from "@/components/services/ServicesGrid";
 import { services, servicesListingSeo, servicesPageContent, servicesUiContent } from "@/data/services";
