@@ -4,7 +4,7 @@ export interface OfficeLocation {
   addressLines: string[];
   email: string;
   phone?: string;
-  directionsPlaceholder: string;
+  mapUrl: string;
 }
 
 export const officeLocations: OfficeLocation[] = [
@@ -19,7 +19,7 @@ export const officeLocations: OfficeLocation[] = [
       "Andhra Pradesh - 515001"
     ],
     email: "info@agvreddy.com",
-    directionsPlaceholder: "Directions (Coming Soon)"
+    mapUrl: "https://maps.app.goo.gl/jANfQxPvEUis744f7"
   },
   {
     city: "Tirupati",
@@ -33,7 +33,7 @@ export const officeLocations: OfficeLocation[] = [
       "Andhra Pradesh - 517501"
     ],
     email: "info@agvreddy.com",
-    directionsPlaceholder: "Directions (Coming Soon)"
+    mapUrl: "https://maps.app.goo.gl/AMkX6E55RvRYXYKe8"
   },
   {
     city: "Bengaluru",
@@ -48,6 +48,6 @@ export const officeLocations: OfficeLocation[] = [
       "Karnataka - 560063"
     ],
     email: "info@agvreddy.com",
-    directionsPlaceholder: "Directions (Coming Soon)"
+    mapUrl: "https://maps.app.goo.gl/md7jqb1Qdkk2iTy8A"
   }
 ];

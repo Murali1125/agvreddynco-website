@@ -16,7 +16,7 @@ export const siteConfig = {
     description:
       "AGV Reddy & Co. delivers trusted audit, taxation, advisory and compliance services with over four decades of experience.",
     keywords: [
-      "chartered accountants",
+      "chartered accountants ",
       "audit services",
       "taxation",
       "gst compliance",

@@ -58,11 +58,11 @@ export default function ServicesPage() {
           })}
         </div>
       </section>
-      <ServiceCTA
+      {/* <ServiceCTA
         headline={servicesPageContent.cta.headline}
         buttonLabel={servicesPageContent.cta.buttonLabel}
         href={servicesPageContent.cta.href}
-      />
+      /> */}
     </main>
   );
 }

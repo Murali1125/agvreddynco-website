@@ -83,12 +83,12 @@ export default function ServiceDetailPage({ params }: ServiceDetailPageProps) {
       <ServiceBenefits title={servicesUiContent.detail.benefitsTitle} items={service.benefits} />
       <IndustriesServed title={servicesUiContent.detail.industriesTitle} industries={service.industries} />
       <ServiceProcess title={servicesUiContent.detail.processTitle} steps={service.process} />
-      <ServiceFAQ title={servicesUiContent.detail.faqTitle} items={service.faqs} />
-      <ServiceCTA
+      {/* <ServiceFAQ title={servicesUiContent.detail.faqTitle} items={service.faqs} /> */}
+      {/* <ServiceCTA
         headline={servicesUiContent.detail.ctaHeadline}
         buttonLabel={servicesUiContent.detail.ctaButtonLabel}
         href="#contact"
-      />
+      /> */}
     </main>
   );
 }

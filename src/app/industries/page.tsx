@@ -51,11 +51,7 @@ export default function IndustriesPage() {
         title={industriesPageData.process.title}
         steps={industriesPageData.process.steps}
       />
-      <IndustryCTA
-        headline={industriesPageData.cta.headline}
-        buttonLabel={industriesPageData.cta.buttonLabel}
-        href={industriesPageData.cta.href}
-      />
+
     </main>
   );
 }

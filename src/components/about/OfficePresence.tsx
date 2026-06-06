@@ -8,7 +8,7 @@ interface OfficePresenceProps {
 
 export function OfficePresence({ title, locations }: OfficePresenceProps) {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-18 sm:px-6 lg:px-8">
+    <section className="mx-auto w-full max-w-7xl px-4 py-18 sm:px-6 lg:px-8 py-10">
       <div className="mb-8 max-w-3xl">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-bronze">Multi-City Presence</p>
         <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{title}</h2>

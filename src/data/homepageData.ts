@@ -20,8 +20,6 @@ export const homepageData: HomePageContent = {
     { label: "About", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Industries", href: "/industries" },
-    { label: "Case Studies", href: "/case-studies" },
-    { label: "Insights", href: "/insights" },
     { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" }
   ],
@@ -137,15 +135,15 @@ export const homepageData: HomePageContent = {
       {
         title: "Resources",
         links: [
-          { label: "Case Studies", href: "/case-studies" },
-          { label: "Insights", href: "/insights" },
+   
           { label: "Careers", href: "/careers" },
           { label: "Contact", href: "/contact" }
         ]
       }
     ],
     contact: {
-      email: "info@agvreddy.com"
+      email: "info@agvreddy.com",
+      phone: "08554 274969"
     },
     copyright: "© 2026 AGV Reddy & Co. All rights reserved."
   }

@@ -43,13 +43,13 @@ export default function AboutPage() {
         description={aboutPageData.leadership.description}
         leaders={aboutPageData.leadership.leaders}
       />
-      <TrustCounters title={aboutPageData.trustCounters.title} counters={aboutPageData.trustCounters.counters} />
+      {/* <TrustCounters title={aboutPageData.trustCounters.title} counters={aboutPageData.trustCounters.counters} /> */}
       <OfficePresence title={aboutPageData.officePresence.title} locations={aboutPageData.officePresence.locations} />
-      <AboutCTA
+      {/* <AboutCTA
         headline={aboutPageData.cta.headline}
         subheadline={aboutPageData.cta.subheadline}
         button={aboutPageData.cta.button}
-      />
+      /> */}
     </main>
   );
 }

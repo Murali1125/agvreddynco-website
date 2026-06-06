@@ -1,3 +1,5 @@
+'use client';
+
 import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 import { OfficeLocation } from "@/data/offices";
@@ -35,10 +37,11 @@ export function OfficeCard({ office }: OfficeCardProps) {
         ) : null}
         <button
           type="button"
-          className="inline-flex items-center gap-2 rounded-full border border-ink/12 px-3 py-2 text-xs font-semibold text-slate"
-          aria-label={`Directions for ${office.city} office coming soon`}
+          onClick={() => window.open(office.mapUrl, '_blank')}
+          className="inline-flex items-center gap-2 rounded-full border border-ink/12 px-3 py-2 text-xs font-semibold text-ink transition cursor-pointer hover:border-bronze hover:text-bronze"
+          aria-label={`Get directions to ${office.city} office`}
         >
-          <MapPin size={14} /> {office.directionsPlaceholder}
+          <MapPin size={14} /> Directions
         </button>
       </div>
     </article>

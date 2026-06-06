@@ -7,7 +7,7 @@ interface VisionMissionProps {
 
 export function VisionMission({ content }: VisionMissionProps) {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-18 sm:px-6 lg:px-8">
+    <section className="mx-auto w-full max-w-7xl px-4 py-18 sm:px-6 lg:px-8 py-10">
       <div className="grid gap-5 lg:grid-cols-2">
         <article className="rounded-3xl border border-ink/10 bg-white p-7 shadow-panel">
           <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-ink text-gold">

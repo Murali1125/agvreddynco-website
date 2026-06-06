@@ -11,7 +11,9 @@ export function LogoPlaceholder({ compact = false }: LogoPlaceholderProps) {
       {!compact ? (
         <div>
           <p className="text-sm font-semibold text-midnight">AGV Reddy & Co.</p>
-          <p className="text-xs uppercase tracking-[0.18em] text-teal">Chartered Accountants</p>
+          <p className="text-xs uppercase tracking-[0.18em] text-teal">Chartered Accountants </p>
+          <p className="text-xs uppercase tracking-[0.18em] text-teal">08554 274969 </p>
+
         </div>
       ) : null}
     </div>

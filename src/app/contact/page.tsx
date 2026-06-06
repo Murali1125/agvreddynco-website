@@ -2,11 +2,9 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { ContactCTA } from "@/components/contact/ContactCTA";
 import { ContactFAQ } from "@/components/contact/ContactFAQ";
-import { ContactForm } from "@/components/contact/ContactForm";
 import { ContactHero } from "@/components/contact/ContactHero";
 import { ContactInfo } from "@/components/contact/ContactInfo";
 import { ContactTrustSection } from "@/components/contact/ContactTrustSection";
-import { ConsultationForm } from "@/components/contact/ConsultationForm";
 import { OfficeLocations } from "@/components/contact/OfficeLocations";
 import { TrustBanner } from "@/components/shared/TrustBanner";
 import { contactFaqs } from "@/data/contactFaqs";
@@ -52,7 +50,7 @@ export default function ContactPage() {
       />
       <TrustBanner content={trustBannerData} />
 
-      <section className="mx-auto grid w-full max-w-7xl gap-6 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
+      {/* <section className="mx-auto grid w-full max-w-7xl gap-6 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
         <ContactForm
           heading={contactPageData.form.heading}
           description={contactPageData.form.description}
@@ -69,7 +67,7 @@ export default function ContactPage() {
           successMessage={contactPageData.consultation.successMessage}
           serviceCategories={contactPageData.consultation.serviceCategories}
         />
-      </section>
+      </section> */}
 
       <OfficeLocations
         eyebrow={contactPageData.sections.officesEyebrow}
@@ -81,21 +79,21 @@ export default function ContactPage() {
         title={contactPageData.sections.infoTitle}
         items={contactPageData.infoCards}
       />
-      <ContactFAQ
+      {/* <ContactFAQ
         eyebrow={contactPageData.sections.faqEyebrow}
         title={contactPageData.sections.faqTitle}
         faqs={contactFaqs}
-      />
+      /> */}
       <ContactTrustSection
         eyebrow={contactPageData.sections.trustEyebrow}
         title={contactPageData.sections.trustTitle}
         points={contactPageData.trustPoints}
       />
-      <ContactCTA
+      {/* <ContactCTA
         headline={contactPageData.finalCta.headline}
         buttonLabel={contactPageData.finalCta.buttonLabel}
         href={contactPageData.finalCta.href}
-      />
+      /> */}
     </main>
   );
 }

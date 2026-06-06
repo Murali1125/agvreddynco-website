@@ -13,7 +13,7 @@ export function AboutHero({ content }: AboutHeroProps) {
           <p className="inline-flex rounded-full border border-bronze/25 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-bronze">
             About AGV Reddy & Co.
           </p>
-          <h1 className="max-w-3xl text-4xl font-semibold leading-tight text-ink sm:text-5xl lg:text-6xl" style={{ textAlign: "justify" }}>
+          <h1 className="max-w-3xl text-4xl font-semibold leading-tight text-ink sm:text-5xl lg:text-6xl">
             {content.headline}
           </h1>
           <p className="max-w-2xl text-base leading-relaxed text-slate sm:text-lg">{content.subheadline}</p>

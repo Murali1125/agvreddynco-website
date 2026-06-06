@@ -1,99 +1,12 @@
 import { CareersPageContent, Job } from "@/types/job";
 
 export const jobs: Job[] = [
+ 
   {
     id: 1,
-    slug: "chartered-accountant",
-    title: "Chartered Accountant",
-    location: "Anantapur / Bengaluru",
-    experience: "3-6 Years",
-    type: "Full-Time",
-    overview:
-      "Lead audit, taxation and advisory assignments while mentoring junior team members and ensuring high-quality delivery.",
-    responsibilities: [
-      "Handle end-to-end audit and assurance engagements",
-      "Review financial statements and regulatory filings",
-      "Provide tax planning and compliance advisory",
-      "Coordinate with clients and internal delivery teams",
-      "Support partner-level review and execution standards"
-    ],
-    requirements: [
-      "Qualified Chartered Accountant",
-      "3+ years of relevant professional experience",
-      "Strong analytical and communication skills",
-      "Knowledge of audit standards and tax regulations",
-      "Client-facing engagement experience"
-    ],
-    benefits: [
-      "Partner mentorship and strategic exposure",
-      "Role progression roadmap",
-      "Cross-industry assignment exposure",
-      "Learning support for certifications"
-    ]
-  },
-  {
-    id: 2,
-    slug: "audit-associate",
-    title: "Audit Associate",
-    location: "Tirupati / Anantapur",
-    experience: "1-3 Years",
-    type: "Full-Time",
-    overview:
-      "Support audit execution, documentation and control reviews for diverse client portfolios under senior supervision.",
-    responsibilities: [
-      "Prepare audit workpapers and documentation",
-      "Perform transaction testing and reconciliations",
-      "Assist in internal and statutory audit assignments",
-      "Track observations and compliance gaps",
-      "Collaborate on timely reporting"
-    ],
-    requirements: [
-      "CA Inter / B.Com / M.Com / Equivalent",
-      "Understanding of accounting and audit basics",
-      "Good documentation discipline",
-      "Team collaboration mindset"
-    ],
-    benefits: [
-      "Structured skill development",
-      "Guided mentorship from seniors",
-      "Exposure to multiple sectors",
-      "Professional certification support"
-    ]
-  },
-  {
-    id: 3,
-    slug: "tax-consultant",
-    title: "Tax Consultant",
-    location: "Bengaluru",
-    experience: "2-5 Years",
-    type: "Full-Time",
-    overview:
-      "Deliver direct and indirect tax advisory, return management and representation support across varied industries.",
-    responsibilities: [
-      "Manage direct and GST compliance cycles",
-      "Prepare tax computations and filings",
-      "Support notices, assessments and appeals",
-      "Provide transaction-level tax advisory",
-      "Coordinate with clients on tax planning"
-    ],
-    requirements: [
-      "CA / CA Inter / Qualified Tax Professional",
-      "Experience in direct and indirect tax compliance",
-      "Familiarity with assessments and notices",
-      "Strong drafting and analytical capability"
-    ],
-    benefits: [
-      "Specialized taxation exposure",
-      "Complex case handling opportunities",
-      "Continuous regulatory learning",
-      "Career growth into leadership tracks"
-    ]
-  },
-  {
-    id: 4,
     slug: "article-assistant",
     title: "Article Assistant",
-    location: "Anantapur / Tirupati",
+    location: "Anantapur",
     experience: "CA Articleship",
     type: "Articleship",
     overview:
@@ -119,10 +32,10 @@ export const jobs: Job[] = [
     ]
   },
   {
-    id: 5,
+    id: 2,
     slug: "finance-executive",
     title: "Finance Executive",
-    location: "Bengaluru / Tirupati",
+    location: "Anantapur",
     experience: "1-4 Years",
     type: "Full-Time",
     overview:
@@ -148,10 +61,10 @@ export const jobs: Job[] = [
     ]
   },
   {
-    id: 6,
+    id: 3,
     slug: "internship-program",
     title: "Internship Program",
-    location: "Anantapur / Bengaluru / Tirupati",
+    location: "Anantapur",
     experience: "0-1 Years",
     type: "Internship",
     overview:

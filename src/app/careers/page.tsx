@@ -58,21 +58,21 @@ export default function CareersPage() {
         jobs={jobs}
         applyLabel={careersPageData.openPositions.applyLabel}
       />
-      <CareerTimeline
+      {/* <CareerTimeline
         eyebrow={careersPageData.journey.eyebrow}
         title={careersPageData.journey.title}
         steps={careersPageData.journey.steps}
-      />
+      /> */}
       <EmployeeBenefits
         eyebrow={careersPageData.benefits.eyebrow}
         title={careersPageData.benefits.title}
         items={careersPageData.benefits.items}
       />
-      <CareersCTA
+      {/* <CareersCTA
         headline={careersPageData.cta.headline}
         buttonLabel={careersPageData.cta.buttonLabel}
         href={careersPageData.cta.href}
-      />
+      /> */}
     </main>
   );
 }
