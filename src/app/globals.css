@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg-base: #fafcfd;
+  --text-primary: #0b3a5b;
+  --brand-primary: #0369a1;
+  --brand-secondary: #0284c7;
+  --brand-accent: #16a34a;
+  --brand-support: #38bdf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: "Trebuchet MS", "Segoe UI", Calibri, sans-serif;
+}
+
+.bg-hero-gradient {
+  background:
+    radial-gradient(circle at 10% 6%, rgba(56, 189, 248, 0.2), transparent 34%),
+    radial-gradient(circle at 88% 12%, rgba(14, 165, 233, 0.18), transparent 32%),
+    radial-gradient(circle at 68% 88%, rgba(74, 222, 128, 0.17), transparent 36%),
+    linear-gradient(135deg, #f0f9ff 0%, #eef8ff 50%, #f0fdf4 100%);
+}
+
+.bg-premium-gradient {
+  background: linear-gradient(140deg, #e0f2fe 0%, #bae6fd 45%, #dcfce7 100%);
+}
+
+.bg-soft-mesh {
+  background-image:
+    radial-gradient(circle at 16% 18%, rgba(14, 165, 233, 0.18), transparent 24%),
+    radial-gradient(circle at 84% 18%, rgba(56, 189, 248, 0.16), transparent 24%),
+    radial-gradient(circle at 50% 86%, rgba(74, 222, 128, 0.18), transparent 28%);
+}
+
+.glass-panel {
+  border: 1px solid rgba(14, 165, 233, 0.16);
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(12px);
+}
+
+.section-separator {
+  position: relative;
+}
+
+.section-separator::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  height: 1px;
+  width: min(92%, 1024px);
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent 0%, rgba(14, 165, 233, 0.32) 50%, transparent 100%);
+}
+
+.pattern-grid {
+  background-image:
+    linear-gradient(rgba(14, 165, 233, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 222, 128, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
