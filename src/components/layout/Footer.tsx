@@ -36,6 +36,7 @@ export function Footer() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal">Contact</p>
           <ul className="mt-4 space-y-2 text-sm text-slate/90">
             <li className="text-slate">{homepageData.footer.contact.email}</li>
+            
             {homepageData.footer.contact.phone ? <li className="text-slate">{homepageData.footer.contact.phone}</li> : null}
             <li className="text-slate">Anantapur | Tirupati | Bengaluru</li>
           </ul>

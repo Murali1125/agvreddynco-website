@@ -12,7 +12,10 @@ Technologies:
 React
 Redux toolKit
 Typescript
+scss
 
+##
+all static data like images, text and etc.. should be maintained in config file.
 
 =====================================
 PHASE-1 GOAL

@@ -54,7 +54,7 @@ export const contactPageData = {
     "Experienced Team of Chartered Accountants"
   ],
   finalCta: {
-    headline: "Committed to Excellence. Driven by Integrity 2.",
+    headline: "Committed to Excellence. Driven by Integrity.",
     buttonLabel: "Request Consultation",
     href: "#consultation"
   },

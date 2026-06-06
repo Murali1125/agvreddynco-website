@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <main>
       <HeroSection />
-      <TrustIndicatorsSection />
+      <TrustIndicatorsSection /> 
       <WhyChooseUsSection />
       <ServicesPreviewSection />
       <LocationsSection />

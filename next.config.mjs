@@ -36,12 +36,18 @@ const securityHeaders = [
   }
 ];
 
+// Default to GitHub project pages path mode for this repository URL.
+// Set GITHUB_PAGES=false only when exporting for a custom root domain.
+const isProjectPagesDeploy = process.env.GITHUB_PAGES !== "false";
+
 const nextConfig = {
   // Enable static export for GitHub Pages deployment
   output: 'export',
   
-  // Base path for GitHub Pages repository
-  basePath: '/agvreddynco-website',
+  // Use repository path only for project-pages deployments.
+  // Custom domains must serve from root (no basePath).
+  basePath: isProjectPagesDeploy ? '/agvreddynco-website' : '',
+  assetPrefix: isProjectPagesDeploy ? '/agvreddynco-website/' : '',
   
   // Trailing slash for static hosting compatibility
   trailingSlash: true,
