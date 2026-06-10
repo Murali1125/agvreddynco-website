@@ -12,6 +12,8 @@ import {
   TrendingUp,
   Users
 } from "lucide-react";
+import AgvReddyImage from "@/assets/AgvReddy.jpeg";
+import NallappaImage from "@/assets/Nallappa.jpeg";
 import { AboutPageContent } from "@/types/about";
 
 export const aboutPageData: AboutPageContent = {
@@ -44,9 +46,9 @@ export const aboutPageData: AboutPageContent = {
     title: "Firm Credentials",
     description: "Recognized by leading regulatory institutions and trusted for high-stakes assignments.",
     items: [
-      { title: "Peer Reviewed Firm", description: "Quality and process standards validated by peer review.", icon: BadgeCheck },
-      { title: "C&AG Empanelled Category III", description: "Empanelled under C&AG Category III (SR3458).", icon: FileCheck2 },
-      { title: "RBI Registered Audit Firm", description: "Registered with RBI for audit assignments (Code: 1018211).", icon: Landmark },
+      { title: "Peer Reviewed Firm - level III", description: "Quality and process standards validated by peer review.", icon: BadgeCheck },
+      { title: "C&AG Empanelled ", description: "Empanelled under C&AG Category III (SR3458).", icon: FileCheck2 },
+      { title: "RBI Category III Registered Audit Firm", description: "Registered with RBI for audit assignments (Code: 1018211).", icon: Landmark },
       { title: "NABARD Category C Empanelled", description: "Empanelled with NABARD under Category C.", icon: Building2 },
       { title: "40+ Years Experience", description: "A legacy built through consistency, integrity and technical depth.", icon: TrendingUp },
       { title: "Multi-City Presence", description: "Strategic offices to serve clients across key business locations.", icon: Globe }
@@ -76,17 +78,19 @@ export const aboutPageData: AboutPageContent = {
     leaders: [
       {
         name: "CA Dr. A.G. Venugopal Reddy",
+        imageUrl: AgvReddyImage,
         role: "Founder Partner",
         description:
           "Founder of the firm and a highly respected chartered accountant with extensive professional experience spanning more than four decades."
       },
       {
         name: "CA Kasi Reddy Nallappa Reddy",
+        imageUrl: NallappaImage,
         role: "Partner",
-        description: "Specializing in audit, taxation, compliance and advisory services with practical business-focused guidance."
+        description: "Specializing in audit, Indian taxation and US taxation compliance and advisory services with practical business-focused guidance."
       },
       {
-        name: "CA Yasaswani Grandhi",
+        name: "CA Yasaswani Grandhi", 
         role: "Partner",
         description: "Experienced in direct taxation, GST compliance, audit assignments, regulatory advisory and financial consulting."
       },

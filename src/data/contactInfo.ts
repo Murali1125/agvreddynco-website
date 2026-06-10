@@ -47,9 +47,9 @@ export const contactPageData = {
   trustPoints: [
     "Established Legacy Since 1984",
     "More Than Four Decades of Professional Excellence",
-    "Peer Reviewed Firm",
-    "C&AG Category III Empanelled Firm",
-    "RBI Registered Audit Firm",
+    "Peer Reviewed Firm - level III",
+    "C&AG  Empanelled Firm",
+    "RBI Category III Registered Audit Firm",
     "NABARD Category C Empanelled Firm",
     "Experienced Team of Chartered Accountants"
   ],

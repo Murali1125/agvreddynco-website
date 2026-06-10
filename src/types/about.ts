@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react";
+import { StaticImageData } from "next/image";
 
 export interface AboutHeroMetric {
   label: string;
@@ -38,8 +39,9 @@ export interface VisionMissionContent {
 }
 
 export interface Leader {
-  name: string;
+  name: string; 
   role: string;
+  imageUrl?: string | StaticImageData;
   description: string;
 }
 

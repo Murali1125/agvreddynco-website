@@ -28,7 +28,7 @@ export function TrustIndicatorsSection() {
             <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate">Industries Served</p>
           </article>
         </div>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {homepageData.trustIndicators.map((badge) => (
             <article
               key={badge.title}

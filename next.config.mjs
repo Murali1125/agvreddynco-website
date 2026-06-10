@@ -43,6 +43,11 @@ const isProjectPagesDeploy = process.env.GITHUB_PAGES !== "false";
 const nextConfig = {
   // Enable static export for GitHub Pages deployment
   output: 'export',
+
+  // Static export cannot use the default on-demand image optimizer.
+  images: {
+    unoptimized: true
+  },
   
   // Use repository path only for project-pages deployments.
   // Custom domains must serve from root (no basePath).

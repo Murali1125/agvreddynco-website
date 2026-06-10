@@ -63,14 +63,14 @@ export function IndustryCard({ item }: IndustryCardProps) {
             ))}
           </ul>
         </div>
-        <div>
+        {/* <div>
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-bronze">AGV Expertise</p>
           <ul className="mt-2 space-y-1 text-sm text-slate">
             {item.expertise.map((skill) => (
               <li key={skill}>• {skill}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </motion.article>
   );

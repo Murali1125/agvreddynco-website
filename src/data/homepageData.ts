@@ -26,7 +26,7 @@ export const homepageData: HomePageContent = {
   hero: {
     headline: "Building Trust Since 1984",
     subheadline:
-      "For more than four decades, AGV Reddy & Co. has been a trusted name in professional services, delivering excellence in audit, taxation, advisory, and regulatory compliance. Established in 1984, the firm has earned a reputation for integrity, technical expertise, and client-focused solutions. As a Peer Reviewed Firm, C&AG Empanelled Category III Firm, RBI Registered Audit Firm, and NABARD Category C Empanelled Firm, we provide professional services that meet the highest standards of quality, independence, and regulatory compliance.",
+      "For more than four decades, AGV Reddy & Co. has been a trusted name in professional services, delivering excellence in audit, taxation, advisory, and regulatory compliance. Established in 1984, the firm has earned a reputation for integrity, technical expertise, and client-focused solutions. As a Peer Reviewed Firm, C&AG Empanelled Firm, RBI Registered Category III Audit Firm, and NABARD Category C Empanelled Firm, we provide professional services that meet the highest standards of quality, independence, and regulatory compliance.",
     primaryCta: {
       label: "Schedule Consultation",
       href: "/contact"
@@ -38,10 +38,9 @@ export const homepageData: HomePageContent = {
   },
   trustIndicators: [
     { title: "Peer Reviewed Firm  level III.", subtitle: "Quality validated through professional review" },
-    { title: "C&AG Empanelled Category III", subtitle: "Empanelment No. SR3458" },
-    { title: "RBI Registered Audit Firm", subtitle: "Unique Code: 1018211" },
+    { title: "C&AG Empanelled", subtitle: "Empanelment No. SR3458" },
+    { title: "RBI Category III Registered Audit Firm", subtitle: "Unique Code: 1018211" },
     { title: "NABARD Category C Empanelled", subtitle: "Recognized for institutional assignments" },
-    { title: "Established in 1984", subtitle: "More than four decades of professional excellence" }
   ],
   whyChooseUs: [
     {
@@ -54,7 +53,7 @@ export const homepageData: HomePageContent = {
     },
     {
       title: "Regulatory Credentials",
-      description: "C&AG Category III, RBI Registered, and NABARD Category C empanelments."
+      description: "C&AG , RBI Category III Registered, and NABARD Category C empanelment."
     },
     {
       title: "Experienced Team",
