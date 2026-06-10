@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Logo from "@/assets/logo.jpg";
+
 interface LogoPlaceholderProps {
   compact?: boolean;
 }
@@ -5,8 +8,13 @@ interface LogoPlaceholderProps {
 export function LogoPlaceholder({ compact = false }: LogoPlaceholderProps) {
   return (
     <div className="flex items-center gap-3">
-      <div className="flex h-10 w-10 items-center justify-center rounded-md border border-primary-300 bg-gradient-to-br from-primary-100 via-primary-200 to-secondary-100 text-xs font-bold tracking-widest text-primary-700 shadow-soft">
-        AGV
+      <div className="flex h-12 w-12 items-center justify-center rounded-md border border-primary-300 from-primary-100 via-primary-200 to-secondary-100 text-xs font-bold tracking-widest text-primary-700 shadow-soft" style={{ padding: 2 }}>
+         <Image 
+            src={Logo}
+            alt="Logo"
+            width={40}
+            height={40}
+          />
       </div>
       {!compact ? (
         <div>

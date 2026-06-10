@@ -141,7 +141,7 @@ export const homepageData: HomePageContent = {
       }
     ],
     contact: {
-      email: "info@agvreddy.com",
+      email: "agvreddynco@gmail.com",
       phone: "08554 274969"
     },
     copyright: "© 2026 AGV Reddy & Co. All rights reserved."

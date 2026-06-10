@@ -1,3 +1,5 @@
+import { contactPageData } from "@/data/contactInfo";
+
 interface ContactHeroProps {
   eyebrow: string;
   headline: string;
@@ -14,6 +16,9 @@ export function ContactHero({ eyebrow, headline, subheadline }: ContactHeroProps
         {/* <ActionButton href={ctaHref} className="mt-8">
           {ctaLabel}
         </ActionButton> */}
+        {/* <p className="mt-8 text-sm font-medium text-royal">
+          email: <a href={`mailto:${contactPageData.contactEmail}`} className="text-royal underline">{contactPageData.contactEmail}</a>
+        </p> */}
       </div>
     </section>
   );

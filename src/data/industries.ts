@@ -149,7 +149,7 @@ export const industriesPageData: IndustriesPageContent = {
     href: "#contact"
   },
   seo: {
-    title: "Industries We Serve | AGV Reddy & Co.",
+    title: "AGV Reddy & Co.",
     description:
       "Explore AGV Reddy & Co.'s four-decade industry expertise across manufacturing, healthcare, education, banking, NGOs and more.",
     keywords: [

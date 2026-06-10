@@ -64,7 +64,7 @@ export const servicesPageContent: ServicesPageContent = {
 };
 
 export const servicesListingSeo = {
-  title: "Professional Services | AGV Reddy & Co.",
+  title: "AGV Reddy & Co.",
   description:
     "Explore audit, taxation, corporate compliance and advisory services delivered by AGV Reddy & Co. since 1984.",
   keywords: [

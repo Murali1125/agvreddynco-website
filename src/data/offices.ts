@@ -18,7 +18,7 @@ export const officeLocations: OfficeLocation[] = [
       "Anantapur",
       "Andhra Pradesh - 515001"
     ],
-    email: "info@agvreddy.com",
+    email: "agvreddynco@gmail.com",
     mapUrl: "https://maps.app.goo.gl/jANfQxPvEUis744f7"
   },
   {
@@ -32,7 +32,7 @@ export const officeLocations: OfficeLocation[] = [
       "Tirupati",
       "Andhra Pradesh - 517501"
     ],
-    email: "info@agvreddy.com",
+    email: "agvreddynco@gmail.com",
     mapUrl: "https://maps.app.goo.gl/AMkX6E55RvRYXYKe8"
   },
   {
@@ -47,7 +47,7 @@ export const officeLocations: OfficeLocation[] = [
       "Bengaluru",
       "Karnataka - 560063"
     ],
-    email: "info@agvreddy.com",
+    email: "agvreddynco@gmail.com",
     mapUrl: "https://maps.app.goo.gl/md7jqb1Qdkk2iTy8A"
   }
 ];

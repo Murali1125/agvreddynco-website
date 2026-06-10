@@ -1,4 +1,6 @@
 export const contactPageData = {
+  contactEmail: "agvreddynco@gmail.com",
+  phone: "08554 274969",
   hero: {
     eyebrow: "Contact AGV Reddy & Co.",
     headline: "Your Trusted Financial Advisors Since 1984",
@@ -38,7 +40,7 @@ export const contactPageData = {
     trustTitle: "Reasons Clients Reach Out To AGV"
   },
   infoCards: [
-    { label: "Email", value: "info@agvreddy.com" },
+    { label: "Email", value: "agvreddynco@gmail.com" },
     { label: "Website", value: "www.agvreddy.com" },
     { label: "Firm Registration", value: "003245S" },
     { label: "C&AG Empanelment", value: "SR3458" },
@@ -74,7 +76,7 @@ export const contactPageData = {
   },
   seo: {
     contact: {
-      title: "Contact Us | AGV Reddy & Co.",
+      title: "AGV Reddy & Co.",
       description:
         "Connect with AGV Reddy & Co. for audit, taxation, compliance and advisory consultations across Anantapur, Tirupati and Bengaluru.",
       keywords: [

@@ -28,7 +28,7 @@ export const aboutPageData: AboutPageContent = {
     ],
     cta: {
       label: "Contact Us",
-      href: "#contact"
+      href: "/contact"
     }
   },
   journey: {

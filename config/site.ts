@@ -3,7 +3,7 @@ export const siteConfig = {
   establishedYear: 1984,
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://agvreddy.com",
   contact: {
-    email: "info@agvreddy.com",
+    email: "agvreddynco@gmail.com",
     phone: "+91 90000 00000"
   },
   locations: ["Anantapur", "Tirupati", "Bengaluru"],

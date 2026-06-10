@@ -70,11 +70,11 @@ export default function ContactPage() {
         title={contactPageData.sections.officesTitle}
         offices={officeLocations}
       />
-      <ContactInfo
+      {/* <ContactInfo
         eyebrow={contactPageData.sections.infoEyebrow}
         title={contactPageData.sections.infoTitle}
         items={contactPageData.infoCards}
-      />
+      /> */}
       {/* <ContactFAQ
         eyebrow={contactPageData.sections.faqEyebrow}
         title={contactPageData.sections.faqTitle}

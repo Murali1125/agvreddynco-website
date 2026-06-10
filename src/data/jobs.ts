@@ -157,7 +157,7 @@ export const careersPageData: CareersPageContent = {
     href: "/careers/apply"
   },
   seo: {
-    title: "Careers | AGV Reddy & Co.",
+    title: "AGV Reddy & Co.",
     description:
       "Explore career opportunities at AGV Reddy & Co. for chartered accountants, audit professionals, tax consultants, interns and finance graduates.",
     keywords: [

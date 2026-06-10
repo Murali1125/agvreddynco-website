@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   establishedYear: 1984,
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://agvreddy.com",
   contact: {
-    email: "info@agvreddy.com"
+    email: "agvreddynco@gmail.com"
   },
   locations: ["Anantapur", "Tirupati", "Bengaluru"],
   socialLinks: {

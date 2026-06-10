@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/seo/metadata";
 
 export const metadata: Metadata = createPageMetadata({
   path: "/about",
-  title: "About Us | AGV Reddy & Co.",
+  title: "AGV Reddy & Co.",
   description:
     "Learn about AGV Reddy & Co., established in 1984, with trusted professional audit, taxation, advisory and compliance expertise across Anantapur, Tirupati and Bengaluru."
 });
